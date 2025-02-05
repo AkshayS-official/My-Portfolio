@@ -1,0 +1,111 @@
+/* Layout.css
+   Akshay Santhosh
+   301499987
+   04.02.2025 (dd.mm.yyyy) */
+
+/* Style for the header element */
+.header {
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: space-between;
+  /* Space out the children elements */
+  align-items: center;
+  /* Center the children elements vertically */
+  background: linear-gradient(to bottom, #27445D, #000000);
+  /* Set the background gradient from grey to black */
+  padding: 10px 20px;
+  /* Add padding inside the header */
+  position: fixed;
+  /* Fix the header at the top of the viewport */
+  top: 0;
+  /* Position the header at the top */
+  left: 0;
+  /* Position the header at the left */
+  width: 99%;
+  /* Make the header span the full width of the viewport */
+  z-index: 1000;
+  /* Ensure the header is above other content */
+}
+
+/* Style for the site branding element */
+.site-branding {
+  display: flex;
+  /* Use flexbox for layout */
+  align-items: center;
+  /* Center the children elements vertically */
+}
+
+/* Style for the logo image */
+.logo {
+  height: 99px;
+  /* Set the height of the logo */
+  width: auto;
+  /* Maintain the aspect ratio */
+  margin-right: 10px;
+  /* Add some space between the logo and the site name */
+}
+
+/* Style for the site name element */
+.site-name {
+  color: white;
+  /* Set the text color to white */
+  margin: 0;
+  /* Remove default margin */
+}
+
+/* Style for the navbar element */
+.navbar {
+  overflow: hidden;
+  /* Hide overflow content */
+}
+
+/* Style for the navigation list */
+.nav-list {
+  list-style-type: none;
+  /* Remove default list styling */
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: flex-end;
+  /* Align the navigation items to the right */
+}
+
+/* Style for each navigation item */
+.nav-item {
+  padding: 14px 20px;
+  /* Add padding inside each navigation item */
+}
+
+/* Style for the navigation links */
+.nav-item a {
+  color: rgb(255, 255, 255);
+  /* Set the text color to white */
+  text-align: center;
+  /* Center the text */
+  text-decoration: none;
+  /* Remove underline from links */
+  display: block;
+  /* Make the link a block element */
+}
+
+/* Style for the navigation links on hover */
+.nav-item a:hover {
+  background-color: #000000;
+  /* Change background color on hover */
+  color: #ffffff;
+  /* Change text color on hover */
+  transform: translateY(-3px);
+  /* Move up slightly on hover */
+}
+
+
+
+/* Add some padding to the top of the main content to avoid overlap with the fixed header */
+.main-content {
+  padding-top: 60px;
+  /* Adjust this value based on the height of your header */
+
+}

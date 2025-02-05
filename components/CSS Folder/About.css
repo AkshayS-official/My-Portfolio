@@ -1,0 +1,67 @@
+/* About.css
+   Akshay Santhosh
+   301499987
+   04.02.2025 (dd.mm.yyyy) */
+
+.about-containera {
+    padding: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* Center the container horizontally */
+}
+
+.intro-sectiona {
+    text-align: center;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  color: black;
+}
+
+.profile-sectiona {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 300px;
+  }
+
+.profile-picturea {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+}
+
+
+
+.background-sectiona {
+    text-align-last: center;
+    -ms-text-align-last: center;
+
+    margin-bottom: 40px;
+    margin-left: 300px;
+    color: black;
+}
+
+.skills-sectiona {
+    margin-bottom: 40px;
+    margin-left: 300px;
+    color: black;
+  }
+}
+
+.skills-sectiona ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-sectiona li {
+    background-color: #edeeff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.interests-sectiona {
+    margin-bottom: 40px;
+    margin-left: 300px;
+    color: black;
+}

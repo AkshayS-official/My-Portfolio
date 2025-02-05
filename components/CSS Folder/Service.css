@@ -1,0 +1,122 @@
+/* Service.css
+   Akshay Santhosh
+   301499987
+   04.02.2025 (dd.mm.yyyy) */
+
+/* service.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    /* Increased max-width */
+    margin: 0px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 40px;
+    /* Increased margin */
+}
+
+.section-title {
+    font-size: 1.8em;
+    /* Slightly larger title */
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* Increased margin */
+    color: #3498db;
+    text-align: center;
+}
+
+.description {
+    background-color: white;
+    padding: 30px;
+    /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Darker shadow */
+    text-align: center;
+    min-height: 250px;
+    /* Ensure a minimum height for descriptions */
+    display: flex;
+    /* Use flexbox for vertical centering */
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically center content */
+}
+
+.description p {
+    margin: 0;
+    /* Remove default p margins */
+}
+
+/* Services Section (Modified) */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* Increased gap */
+    justify-content: center;
+}
+
+.service-item {
+    background-color: #497D74;
+    /* Kept the background color */
+    padding: 30px;
+    /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    /* More prominent shadow */
+    flex: 1 1 calc(33% - 60px);
+    /* Adjusted width calculation */
+    max-width: calc(33% - 60px);
+    /* Adjusted max-width calculation */
+    text-align: center;
+    color: white;
+    /* White text for contrast */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* Smooth hover effect */
+    min-height: 250px;
+    /* Match description height for consistency */
+    display: flex;
+    /* Use flexbox for vertical centering */
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically center content */
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    /* Move up more on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* More prominent shadow on hover */
+}
+
+.service-item h2 {
+    margin-top: 0;
+    color: white;
+    /* White heading color */
+    margin-bottom: 10px;
+    /* Add some space below the heading */
+}
+
+.service-item p {
+    margin-bottom: 0;
+}

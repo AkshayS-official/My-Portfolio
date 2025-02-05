@@ -1,0 +1,79 @@
+/* Contact.css
+   Akshay Santhosh
+   301499987
+   04.02.2025 (dd.mm.yyyy) */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centers vertically */
+    align-items: center;
+    /* Centers horizontally */
+    min-height: 100vh;
+    /* Use min-height to ensure full viewport height */
+    padding: 20px;
+    margin-left: 750px;
+}
+
+.contact-section {
+    text-align: center;
+    /* Centers the text inside */
+    margin-bottom: 40px;
+    width: 100%;
+    /* Important: Make the section take full width for proper centering within container*/
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    /* Important: Make the form take full width for proper centering within container*/
+    max-width: 600px;
+    /* Optional: Limit the form width for better aesthetics on larger screens */
+    margin: 0 auto;
+    /* Center the form itself */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align labels to the start */
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f4f4fc;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #71BBB2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    /* Center the button horizontally within the form */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

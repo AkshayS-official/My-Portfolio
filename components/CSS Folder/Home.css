@@ -1,0 +1,94 @@
+/* Home.css
+   Akshay Santhosh
+   301499987
+   04.02.2025 (dd.mm.yyyy) */
+
+.home-containerh {
+  padding: 100px;
+  max-width: 1200px;
+  margin: auto
+    /* Center the container horizontally */
+
+}
+
+.intro-sectionh {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 550px;
+  color: black;
+
+}
+
+.mission-sectionh {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 550px;
+  color: black;
+}
+
+.profile-sectionh {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 550px;
+}
+
+.profile-pictureh {
+  width: 160px;
+  height: 150px;
+  border-radius: 70%;
+}
+
+.skills-sectionh {
+  margin-bottom: 40px;
+  margin-left: 550px;
+  color: black;
+}
+
+.skills-sectionh ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+.skills-sectionh li {
+  background-color: #f4f4fc;
+  /* Red background color */
+  color: rgb(0, 0, 0);
+  /* Ensure text color is readable */
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projects-sectionh {
+  margin-bottom: 40px;
+  margin-left: 550px;
+  color: black;
+}
+
+.project-listh {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.project-itemh {
+  background-color: #f4f4fc;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1 1 calc(50% - 20px);
+}
+
+.contact-sectionh {
+  text-align: center;
+  margin-left: 550px;
+}
+
+.contact-sectionh a {
+  color: #71BBB2;
+  text-decoration: none;
+}
+
+.contact-sectionh a:hover {
+  text-decoration: underline;
+}

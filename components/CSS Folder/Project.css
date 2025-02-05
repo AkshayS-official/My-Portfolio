@@ -1,0 +1,55 @@
+/* project.css
+   Akshay Santhosh
+   301499987
+   04.02.2025 (dd.mm.yyyy) */
+
+/* Style for the project container */
+.project-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 300PX;
+    margin-top: 70px;
+    /* Center the container horizontally */
+}
+
+/* Style for the intro section */
+.intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Style for the projects section */
+.projects-section {
+    display: flex;
+    max-width: fit-content;
+    gap: 100px;
+    justify-content: center;
+}
+
+/* Style for each project item */
+.project-item {
+    background-color: #f0f0f0;
+    /* Light grey background */
+    padding: 40px;
+    border-radius: 30px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for a card-like effect */
+    flex: 1 1 calc(33% - 100px);
+    /* Adjust the width of project items */
+    max-width: calc(33% - 100px);
+    /* Ensure the max width is the same as flex width */
+    text-align: center;
+    /* Center the text inside each project item */
+}
+
+.project-item h2 {
+    margin-top: 0;
+    /* Remove default top margin */
+}
+
+.project-item p {
+    margin-bottom: 0;
+    /* Remove default bottom margin */
+}
